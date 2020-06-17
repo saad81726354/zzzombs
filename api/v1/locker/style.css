@@ -1,0 +1,150 @@
+body {
+  font-family: lilitaOne;
+  background-image: url("https://cdn.glitch.com/7188c23d-904a-4c62-ae47-5ff3976cc2a1%2FLockerBG.png?v=1592093679687");
+  background-repeat: repeat;
+  background-size: 374px 374px;
+}
+p {
+  font-family: lilitaOne;
+  color: white;
+}
+#colored {
+  text-shadow: 1.5px 1.5px #000;
+}
+
+#footer {
+  text-shadow: 1.5px 1.5px #000;
+}
+h1 {
+  color: white;
+  text-shadow: 2.5px 2.5px #000;
+  font-family: lilitaOne;
+}
+
+#item-common {
+  color: #303030;
+}
+
+#item-mythic {
+  color: #FFF;
+}
+
+#item-uncommon {
+  color: #FFF;
+}
+
+#item-rare {
+  color: #FFF;
+}
+
+#item-epic {
+  color: #FFF;
+}
+
+#item-legendary {
+  color: #FFF;
+}
+
+@font-face {
+  font-family: lilitaOne;
+  src: url("https://cdn.glitch.com/7188c23d-904a-4c62-ae47-5ff3976cc2a1%2FLilitaOne-Regular.ttf?v=1592093959281");
+}
+
+.wrapper {
+  width="900"margin: 0 auto;
+  text-align: center;
+}
+
+.box-common {
+  display: inline-block;
+  font-family: lilitaOne;
+  background-color: lightgray;
+  width: 182px;
+  border: 15px solid #303030;
+  padding: 7px;
+  margin: 14.2px;
+}
+
+.box-mythic {
+  display: inline-block;
+  font-family: lilitaOne;
+  background-color: #e65353;
+  width: 182px;
+  border: 15px solid #303030;
+  padding: 7px;
+  margin: 14.2px;
+}
+
+.box-uncommon {
+  display: inline-block;
+  font-family: lilitaOne;
+  background-color: #46e06f;
+  width: 182px;
+  border: 15px solid #303030;
+  padding: 7px;
+  margin: 14.2px;
+}
+
+.box-rare {
+  display: inline-block;
+  font-family: lilitaOne;
+  background-color: #33beff;
+  width: 182px;
+  border: 15px solid #303030;
+  padding: 7px;
+  margin: 14.2px;
+}
+
+.box-epic {
+  display: inline-block;
+  font-family: lilitaOne;
+  background-color: #b533ff;
+  width: 182px;
+  border: 15px solid #303030;
+  padding: 7px;
+  margin: 14.2px;
+}
+
+.box-legendary {
+  display: inline-block;
+  font-family: lilitaOne;
+  background-color: #ebb82d;
+  width: 182px;
+  border: 15px solid #303030;
+  padding: 7px;
+  margin: 14.2px;
+}
+
+input[type=text], select {
+  font-family: lilitaOne;
+  width: 20%;
+  padding: 6px 12px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+}
+
+.button {
+  outline: none;
+  box-shadow: none;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-family: lilitaOne;
+}
+
+.button:hover {
+  background-color: #47964a;
+}

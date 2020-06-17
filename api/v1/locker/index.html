@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.com/7188c23d-904a-4c62-ae47-5ff3976cc2a1%2FZombsEmote.png?v=1591760631570"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Your Locker</title>
+
+    <!-- import the webpage's javascript file -->
+    <script src="/locker.js" defer></script>
+    <script src="/locker-extras.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <center>
+      <h1 id="username">
+        Your Locker (Empty)
+      </h1>
+      <p id="colored">
+        Welcome to your locker! Do CTRL+F to find a specific skin, or click
+        <a style="color:lightblue" href="javascript:alphabeticize();">here</a>
+        to sort alphabetically.<br />NOTE: You must reload to see new cosmetics.
+      </p>
+      <div class="wrapper">
+        <input id="replaceme" type="text" />
+      <button class="button" onclick="javascript:findInPage();">
+        Search
+      </button>
+        <br>
+      </div>
+      <br>
+    </center>
+    <div class="wrapper" id="fulllocker"></div>
+    <center>
+      <p id="footer" style="font-size:130%;">
+        0/250 slots used<br />
+        Want to unlock more slots?
+      </p>
+    </center>
+  </body>
+</html>

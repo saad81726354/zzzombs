@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rarity Code Generator</title>
+  </head>  
+  <body>
+    <h1>
+      Rarity Code Generator
+    </h1>
+    <h2>
+      Generate code for the rarity of a zombs item here!
+    </h2>
+    <label for="resourcename">Cosmetic</label>
+    <input id="resourcename" type="text">
+    <label for="rarity">Rarity</label>
+    <input id="rarity" type="text">
+    <br><br>
+    <button type="button" onclick="javascript:generateCode();">
+      Generate code!
+    </button>
+    <br><br>
+    <p id="output">
+      Output code will appear here...
+    </p>
+    <script>
+      function generateCode() {
+        var x = document.getElementById("resourcename").value.toString();
+        var y = document.getElementById("rarity").value.toString();
+        var z = document.getElementById("output")
+        var a = x.replace(/\s/g,'').toUpperCase();
+        var b = y.toLowerCase();
+        z.innerHTML = "if (cosmetic == '" + a + "') {<br>rarity = '" + b + "';<br>} else";
+      }
+    </script>
+  </body>
+</html>
