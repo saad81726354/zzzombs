@@ -8,7 +8,7 @@ var lockerArray = [];
 
 window.onload = function() {
     $.support.cors = true;
-    $.getJSON('https://db.neelr.dev/api/zombsbot/locker/' + auth, function(data) {
+    $.getJSON('https://db.neelr.dev/api/ae6530ca62cfa165bbc685/locker/' + auth, function(data) {
         var m = data.cosmetics.substr(1);
         console.log(m);
         lockerdata = m;
